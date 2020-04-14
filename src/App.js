@@ -27,27 +27,19 @@ class App extends React.Component {
   }
 
   addPageActiveClass() {
-    const location = window.location.pathname;
     const activeLink = document.querySelector(".active-page");
-    if(activeLink) {
-      activeLink.classList.remove("active-page")
+    if (activeLink) {
+      activeLink.classList.remove("active-page");
     }
 
-    switch (location) {
-      case "/":
-        document.querySelector("#home-nav-link").classList.add("active-page");
+    const navLinks = document.querySelectorAll(".navbar a");
+    const searchText = this.state.activePage;
+
+    for (var i = 0; i < navLinks.length; i++) {
+      if (navLinks[i].innerText.includes(searchText)) {
+        navLinks[i].classList.add("active-page");
         break;
-      case "/aboutMe":
-        document.querySelector("#about-nav-link").classList.add("active-page");
-        break;
-      case "/projects":
-        document.querySelector("#project-nav-link").classList.add("active-page");
-        break;
-      case "/contactMe":
-        document.querySelector("#contact-nav-link").classList.add("active-page");
-        break;
-      default:
-        break;
+      }
     }
   }
 
@@ -61,7 +53,7 @@ class App extends React.Component {
     };
 
     return (
-      <Router basename='/'>
+      <Router basename="/">
         <NavBar
           activePage={this.state.activePage}
           changePage={this.changePage}
