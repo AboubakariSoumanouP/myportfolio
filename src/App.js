@@ -1,5 +1,5 @@
 import React from "react";
-import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import { HashRouter as Router, Route, Switch } from "react-router-dom";
 import "./App.css";
 import NavBar from "./components/NavBar";
 
@@ -61,14 +61,13 @@ class App extends React.Component {
     };
 
     return (
-      <Router>
+      <Router basename='/'>
         <NavBar
           activePage={this.state.activePage}
           changePage={this.changePage}
         />
         <Switch>
           <Route exact path="/" component={Home} />
-          <Route exact path="/myportfolio" component={Home} />
           <Route exact path="/aboutMe" component={About} />
           <Route exact path="/projects" component={Project} />
           <Route exact path="/contactMe" component={Contact} />
