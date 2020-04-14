@@ -1,0 +1,131 @@
+.navbar {
+  display: flex;
+  list-style-type: none;
+  justify-content: center;
+  margin: 2rem auto;
+  border-bottom: 3px solid black;
+  padding-bottom: 1rem;
+  width: 35%;
+}
+
+.navbar li {
+  margin-right: 1rem;
+}
+
+.home-component {
+  height: 100 vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 5rem;
+}
+
+.home-component img {
+  width: 50%;
+  border-radius: 50%;
+}
+
+.home-component h1 {
+  text-align: center;
+}
+
+.image-container {
+  display: flex;
+  justify-content: center;
+}
+
+.contact-container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: 80%;
+  margin: 2rem auto;
+}
+
+.header {
+  text-align: center;
+}
+
+.form,
+.info-container {
+  width: 30%;
+  margin: auto;
+  text-align: left !important;
+}
+
+.info-container span {
+  margin-right: 1.5rem;
+}
+
+.info-container {
+  text-align: center;
+}
+
+.form {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.form input,
+button,
+textarea {
+  width: 100%;
+  margin-top: 1rem;
+}
+
+.form input {
+  padding: 5px;
+}
+
+.about-container {
+  width: 40%;
+  margin: auto;
+  text-align: center;
+}
+
+.project-container {
+  width: 40%;
+  margin: auto;
+  padding-top: 1rem;
+}
+
+.projects {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 2rem;
+}
+
+.project-card {
+  border: 1px solid black;
+  margin-top: 1.5rem;
+  width: 300px;
+  padding: 10px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.view-project-btn {
+  text-align: right;
+}
+
+.navbar a,
+.project-container a {
+  color: black;
+  text-decoration: none;
+}
+
+.project-sub-page-container {
+  width: 40%;
+  margin: auto;
+}
+
+.about-paragraph {
+  margin-top: 2rem;
+  text-align: justify;
+}
+
+a.active-page {
+  text-decoration: underline;
+}
