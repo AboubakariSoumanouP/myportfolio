@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.624b6309.chunk.css",
-    "main.js": "/portfolio/static/js/main.9d0798ca.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.9d0798ca.chunk.js.map",
-    "runtime-main.js": "/portfolio/static/js/runtime-main.a2b3839f.js",
-    "runtime-main.js.map": "/portfolio/static/js/runtime-main.a2b3839f.js.map",
-    "static/js/2.75d0ae49.chunk.js": "/portfolio/static/js/2.75d0ae49.chunk.js",
-    "static/js/2.75d0ae49.chunk.js.map": "/portfolio/static/js/2.75d0ae49.chunk.js.map",
-    "index.html": "/portfolio/index.html",
-    "precache-manifest.4a9076f56725cac0a66213f5e4bc3054.js": "/portfolio/precache-manifest.4a9076f56725cac0a66213f5e4bc3054.js",
-    "service-worker.js": "/portfolio/service-worker.js",
-    "static/css/main.624b6309.chunk.css.map": "/portfolio/static/css/main.624b6309.chunk.css.map",
-    "static/js/2.75d0ae49.chunk.js.LICENSE.txt": "/portfolio/static/js/2.75d0ae49.chunk.js.LICENSE.txt",
-    "static/media/me.jpeg": "/portfolio/static/media/me.d1ee3fa1.jpeg"
+    "main.css": "/myportfolio/static/css/main.624b6309.chunk.css",
+    "main.js": "/myportfolio/static/js/main.9d0798ca.chunk.js",
+    "main.js.map": "/myportfolio/static/js/main.9d0798ca.chunk.js.map",
+    "runtime-main.js": "/myportfolio/static/js/runtime-main.1cee7309.js",
+    "runtime-main.js.map": "/myportfolio/static/js/runtime-main.1cee7309.js.map",
+    "static/js/2.e6a5ab7a.chunk.js": "/myportfolio/static/js/2.e6a5ab7a.chunk.js",
+    "static/js/2.e6a5ab7a.chunk.js.map": "/myportfolio/static/js/2.e6a5ab7a.chunk.js.map",
+    "index.html": "/myportfolio/index.html",
+    "precache-manifest.e0556a41cc5da5124a5e43d5cf621b25.js": "/myportfolio/precache-manifest.e0556a41cc5da5124a5e43d5cf621b25.js",
+    "service-worker.js": "/myportfolio/service-worker.js",
+    "static/css/main.624b6309.chunk.css.map": "/myportfolio/static/css/main.624b6309.chunk.css.map",
+    "static/js/2.e6a5ab7a.chunk.js.LICENSE.txt": "/myportfolio/static/js/2.e6a5ab7a.chunk.js.LICENSE.txt",
+    "static/media/me.jpeg": "/myportfolio/static/media/me.d1ee3fa1.jpeg"
   },
   "entrypoints": [
-    "static/js/runtime-main.a2b3839f.js",
-    "static/js/2.75d0ae49.chunk.js",
+    "static/js/runtime-main.1cee7309.js",
+    "static/js/2.e6a5ab7a.chunk.js",
     "static/css/main.624b6309.chunk.css",
     "static/js/main.9d0798ca.chunk.js"
   ]
