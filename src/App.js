@@ -28,7 +28,10 @@ class App extends React.Component {
 
   addPageActiveClass() {
     const location = window.location.pathname;
-    document.querySelector(".active-page").classList.remove("active-page");
+    const activeLink = document.querySelector(".active-page");
+    if(activeLink) {
+      activeLink.classList.remove("active-page")
+    }
 
     switch (location) {
       case "/":
